@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu', sans-serif;
+}
+html{
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+
+}
+#gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px ;
+}
+h2{
+    font-size: 50px;
+}
+.choiceBtn{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #afe4ff;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+.choiceBtn:hover{
+    transform: scale(1.2);
+    border: 2px solid #afe4ff;
+}
+#result{
+    font-size: 35px;
+    font-style: italic;
+}
