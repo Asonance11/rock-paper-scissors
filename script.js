@@ -25,7 +25,7 @@ function getComputerChoice(){
             computerChoice = "scissors"
             break
     }
-    console.log(computerChoice)
+    
 }
 function checkWinner(){
     if (playerChoice == computerChoice) {

@@ -18,17 +18,11 @@ html{
 h2{
     font-size: 50px;
 }
-.choice{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    width: max(40vw, 250px);
-    height: 50vh;
-}
+
 .choiceBtn{
-    width: 25%;
-    height: 90%;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
     background-color: #afe4ff;
     outline: none;
     border: none;
