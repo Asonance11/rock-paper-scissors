@@ -22,7 +22,7 @@ h2{
 .choiceBtn{
     margin: 40px;
     width: 200px;
-    height: 300px;
+    height: auto;
     outline: none;
     border: none;
     transition: all .3s ease;
