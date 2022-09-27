@@ -36,6 +36,17 @@ h2{
 .choiceBtn:hover{
     transform: scale(1.2);
 }
+.score{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.score-text{
+    margin: 50px;
+}
+
 #result{
     font-size: 35px;
     font-style: italic;
