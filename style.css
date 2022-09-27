@@ -20,18 +20,21 @@ h2{
 }
 
 .choiceBtn{
-    margin: 50px;
+    margin: 40px;
     width: 200px;
-    height: 200px;
-    background-color: #afe4ff;
+    height: 300px;
     outline: none;
     border: none;
-    border-radius: 50%;
     transition: all .3s ease;
+    background-color:transparent;
+}
+.choiceBtn img{
+    object-fit: cover;
+    width: 125px;
+    height: 150px;
 }
 .choiceBtn:hover{
     transform: scale(1.2);
-    border: 2px solid #afe4ff;
 }
 #result{
     font-size: 35px;
