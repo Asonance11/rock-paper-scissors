@@ -7,7 +7,7 @@ let computerScore = 0
 let player = document.querySelector('#playerScore')
 player.textContent = `Player Score: ${playerScore}`
 let computer = document.querySelector('#computerScore')
-computer.textContent = `Player Score: ${computerScore}`
+computer.textContent = `Computer Score: ${computerScore}`
 choicebtn.forEach((button) => {button.addEventListener('click', () => {
     playerChoice = button.id
     getComputerChoice();
@@ -59,19 +59,19 @@ function checkWinner(){
 function playGame(){
     checkWinner();
     player.textContent = `Player Score: ${playerScore}`
-    computer.textContent = `Player Score: ${computerScore}`
+    computer.textContent = `Computer Score: ${computerScore}`
     if (playerScore == 5) {
         result.textContent = "You won the Game!"
         playerScore = 0;
         computerScore = 0;
         player.textContent = `Player Score: ${playerScore}`
-        computer.textContent = `Player Score: ${computerScore}`
+        computer.textContent = `Computer Score: ${computerScore}`
     } else if(computerScore == 5){
         result.textContent = "You lost the Game, Maybe you should try again"
         playerScore = 0;
         computerScore = 0;
         player.textContent = `Player Score: ${playerScore}`
-        computer.textContent = `Player Score: ${computerScore}`
+        computer.textContent = `Computer Score: ${computerScore}`
     }
 }
 
