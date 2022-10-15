@@ -1,2 +1,3 @@
 # rock-paper-scissors
- a rock paper scissors web app
+ check the live preview
+ https://asonance11.github.io/rock-paper-scissors/
